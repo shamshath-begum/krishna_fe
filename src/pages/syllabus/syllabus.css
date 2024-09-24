@@ -1,0 +1,35 @@
+.add-syllabus-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .form-group, .medium-group, .subject-group, .chapter-group {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

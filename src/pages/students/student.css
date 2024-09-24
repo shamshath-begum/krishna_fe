@@ -1,0 +1,135 @@
+/* student registration */
+.student-form {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #c4d8f3;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.installment-date-group {
+  display: flex;
+  align-items: center;
+  /* gap: 4px; */
+}
+
+.add-button, .remove-button {
+  padding: 5px 10px;
+  background-color: #2ceb4c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-button {
+  background-color: #dc3545;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #12032e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+
+.table-button1{
+    background-color: orange;
+}
+.table-button2{
+    background-color: #4fd2e9;
+}
+.table-button3{
+    background-color: rgb(232, 235, 81);
+}
+/* student details */
+
+.student-detail-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+    box-shadow: 1px 5px 5px 1px gray;
+  }
+  .student-detail-container h2{
+text-align: center;
+padding-bottom: 10px;
+  }
+  .student-info p {
+    margin: 10px 0;
+  }
+  
+  .student-info strong {
+    font-weight: bold;
+  }
+
+  .installment-date-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .add-button, .remove-button {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .search-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    max-width: 15%;
+    box-sizing: border-box;
+    font-size: 16px;
+    position: absolute; /* Position the input field */
+    right: 5px; 
+    /* left: 200px; */
+    top: 350px;
+    background-color: rgb(234, 232, 238);
+    color: whitesmoke;
+  }
+  .search-input-all{
+    margin-bottom: 20px;
+    padding: 10px;
+    max-width: 15%;
+    box-sizing: border-box;
+    font-size: 16px;
+    position: absolute; /* Position the input field */
+    right: 20px; /* Align it to the right */
+    top: 190px;
+    background-color: rgb(234, 232, 238);
+    color: whitesmoke;
+  }
+  .details{
+    text-align: center;
+    position: relative;
+  }
+  @media (max-width: 600px) {
+    .student-detail-container {
+      padding: 10px;
+    }
+  }
+  
